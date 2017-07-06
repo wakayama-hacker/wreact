@@ -35,5 +35,22 @@
     "react-test-renderer": "^15.6.1",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakayama-hacker/wreact.git"
+  },
+  "keywords": [
+    "react",
+    "spa",
+    "template"
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/wakayama-hacker/wreact/issues"
+  },
+  "homepage": "https://github.com/wakayama-hacker/wreact#readme"
 }
