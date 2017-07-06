@@ -1,10 +1,33 @@
 import React from 'react'
-// import { Providor } from 'react-redux'
 import App from 'components/App'
 
+// import { createStore, applyMiddleware } from 'redux'
+// import { Providor } from 'react-redux'
+//
+// const middlewares = []
+//
+// const preloadState = {}
+//
+// const reducer = (state = preloadState, action) => {
+//
+//   const { type, payload } = action
+//
+//   switch (type) {
+//     default:
+//       return state
+//   }
+// }
+//
+// const store = createStore(
+//   reducer,
+//   preloadState,
+//   applyMiddleware(...middlewares)
+// )
+
 const AppContainer = () => {
+
   return (
-    // <Providor>
+    // <Providor store={ store }>
       <App />
     // </Providor>
   )
