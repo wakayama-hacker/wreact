@@ -1,0 +1,6 @@
+--require react-dom/test-utils
+--compilers js:babel-core/register
+--recursive
+--reporter dot
+
+test/**/*.test.jsx
