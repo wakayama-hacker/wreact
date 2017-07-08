@@ -7,7 +7,7 @@
     "build": "webpack -p",
     "start": "webpack-dev-server --progress --colors --inline --watch",
     "lint": "eslint --ext=jsx --ext=js .",
-    "test": "NODE_ENV=test NODE_PATH=src:test mocha"
+    "test": "cross-env NODE_ENV=test NODE_PATH=src:test mocha"
   },
   "license": "MIT",
   "dependencies": {
@@ -27,6 +27,7 @@
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "chai": "^4.0.2",
+    "cross-env": "^5.0.1",
     "enzyme": "^2.9.1",
     "eslint": "^4.1.1",
     "eslint-import-resolver-node": "^0.3.1",
