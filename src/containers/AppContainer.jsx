@@ -1,6 +1,7 @@
 import React from 'react'
 import App from 'components/App'
 
+//// redux options
 // import { createStore, applyMiddleware } from 'redux'
 // import { Providor } from 'react-redux'
 //
