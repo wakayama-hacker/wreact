@@ -1,5 +1,5 @@
 import React from 'react'
-import { render as _render } from 'react-dom'
+import { render as reactRender } from 'react-dom'
 import { AppContainer as HMRContainer } from 'react-hot-loader'
 import App from './containers/AppContainer'
 
@@ -10,15 +10,17 @@ import App from './containers/AppContainer'
  * @return {void}
  */
 const render = Component =>
-  _render(
+  reactRender(
     <HMRContainer>
       <Component />
     </HMRContainer>,
     document.getElementById('app')
   )
 
+// Go!
 render(App)
 
+// Hot Module Replacement settings
 if (module.hot) {
   module.hot.accept('./containers/AppContainer', () => {
     const NextApp = require('./containers/AppContainer').default

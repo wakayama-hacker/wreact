@@ -28,6 +28,12 @@ Then build:
 $ npm run build
 ```
 
+## deploy
+
+```shell
+$ npm run build
+```
+
 ## Automated testing
 
 ```shell

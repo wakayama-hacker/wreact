@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Logo from './Logo.jsx'
 
 export default class App extends React.Component {
 
   /**
-   * propTypes
+   * prop types
    * @type {object}
    */
    static propTypes = {
@@ -12,7 +13,7 @@ export default class App extends React.Component {
    }
 
    /**
-    * defaultProps
+    * default props
     * @type {object}
     */
     static defaultProps = {
@@ -32,6 +33,8 @@ export default class App extends React.Component {
     return (
       <div>
         <h1>{ title }</h1>
+        <p>{ 'Hello, React!' }</p>
+        <Logo size={ [100, 100] } />
       </div>
     )
   }

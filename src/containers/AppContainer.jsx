@@ -1,9 +1,9 @@
 import React from 'react'
-import App from 'components/App'
+import App from 'components/App.jsx'
 
-//// redux options
+// redux options
 // import { createStore, applyMiddleware } from 'redux'
-// import { Providor } from 'react-redux'
+// import { Provider } from 'react-redux'
 //
 // const middlewares = []
 //
@@ -28,9 +28,9 @@ import App from 'components/App'
 const AppContainer = () => {
 
   return (
-    // <Providor store={ store }>
+    // <Provider store={ store }>
       <App />
-    // </Providor>
+    // </Provider>
   )
 }
 
