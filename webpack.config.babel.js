@@ -7,8 +7,9 @@ import path              from 'path'
 import webpack           from 'webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 
-const __DEV__  = process.env.NODE_ENV === 'development'
-const __PROD__ = process.env.NODE_ENV === 'production'
+const { NODE_ENV } = process.env
+const __DEV__  = NODE_ENV === 'development'
+const __PROD__ = NODE_ENV === 'production'
 
 // entries
 const mainEntry = [
